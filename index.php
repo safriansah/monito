@@ -49,6 +49,10 @@
 
             <!-- Navigation -->
             <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <ul class="nav navbar-nav navbar-left navbar-top-links">
+                    <li><a href="#"><img src="logotok.ico" style="height:18px" alt="" srcset=""></a></li>
+                </ul>
+                
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.php">Sistem Monitoring Tiang Beton</a>
                 </div>
@@ -59,10 +63,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-
-                <ul class="nav navbar-nav navbar-left navbar-top-links">
-                    <li><a href="#"><i class="fa fa-home fa-fw"></i> </a></li>
-                </ul>
 
                 <ul class="nav navbar-right navbar-top-links">
                     <li class="dropdown navbar-inverse">
@@ -137,6 +137,9 @@
                             <li>
                                 <a href="#"><i class="fa fa-user-secret fa-fw"></i> Profile Vendor<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="?pages=tambah_profile_vendor">Tambah</a>
+                                    </li>
                                     <li>
                                         <a href="?pages=profile_vendor">View</a>
                                     </li>
