@@ -55,12 +55,12 @@ if(isset($_SESSION['admin'])) header('Location: index.php');
                                
                                     <div class="row">
                                         <div class="col-md-6">
+                                            <input type="submit" name="login" class="btn btn-success btn-block" value="Login">
+                                        </div>
+                                        <div class="col-md-6">
                                             <a href="lupapassword.php"><button class="btn btn-info btn-block">Lupa Password</button></a>
                                             <!-- Change this to a button or input when using this as a form -->
                                             
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="submit"name="login" class="btn btn-success btn-block" value="Login">
                                         </div>
                                     </div>
                                 </fieldset>
