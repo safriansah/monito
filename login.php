@@ -12,6 +12,7 @@ if(isset($_SESSION['admin'])) header('Location: index.php');
         <meta name="author" content="">
 
         <title>Sistem Monitoring Tiang Beton</title>
+        <link href="logotok.ico" rel="shortcut icon">
 
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
