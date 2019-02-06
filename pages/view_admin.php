@@ -11,13 +11,17 @@
                         <div class="col-lg-12">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                Tabel User Monitoring
+                                    <div class="row">
+                                        <div class="col-lg-6">Tabel User Monitoring</div>
+                                        <div class="col-lg-6">
+                                            <a href="?pages=tambah_admin">
+                                                <button style="margin: 0px 0px;float:right" type="button" class="btn btn-success">Tambah</button>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <!-- /.panel-heading -->
                                 <div class="panel-body">
-                                    <a href="?pages=tambah_admin">
-                                        <button style="margin: 12px 0px" type="button" class="btn btn-success">Tambah</button>
-                                    </a>
                                     <div class="table-responsive">
                                         <table class="table dataTables-example table-striped table-bordered table-hover">
                                         <thead>

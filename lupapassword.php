@@ -34,7 +34,9 @@ if(isset($_SESSION['admin'])) header('Location: index.php');
         <![endif]-->
     </head>
 
-<body>
+<body style="background-image: url('img/bck.png');
+        background-size: 100%;
+        background-repeat: no-repeat;">
 <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">

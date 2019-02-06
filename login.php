@@ -33,7 +33,9 @@ if(isset($_SESSION['admin'])) header('Location: index.php');
         <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body style="background-image: url('img/bck.png');
+        background-size: 100%;
+        background-repeat: no-repeat;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">

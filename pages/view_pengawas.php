@@ -11,7 +11,14 @@
                         <div class="col-lg-12">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                Tabel Laporan Vendor
+                                <div class="row">
+                                        <div class="col-lg-6">Tabel Laporan Vendor</div>
+                                        <div class="col-lg-6">
+                                            <a href="export/export_pengawas.php">
+                                                <button style="margin: 0px 0px;float:right" type="button" class="btn btn-warning">Export Data Pengawas</button>
+                                            </a>
+                                        </div>
+                                        </div>
                                 </div>
                                 <!-- /.panel-heading -->
                                 <div class="panel-body">
